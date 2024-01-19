@@ -55,6 +55,10 @@ const HomeScreen = (props: { navigation: { navigate: (arg0: string) => void; }; 
   return (
     <View style={styles.container}>
       <Text>Integrating APIs</Text>
+      {/* <Button
+        title="Login Page"
+        onPress={() => props.navigation.navigate('Login')}
+      /> */}
         <FlatList
         data={data}
         renderItem={({item})=><View>
